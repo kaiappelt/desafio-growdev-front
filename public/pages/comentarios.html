@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="../libs/bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../libs/fontawesome5/css/all.min.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/comentarios.css">   
+
+    <title>Comentários</title>
+</head>
+<body>
+    <div class="container">
+        <div class="area">
+            <!-- MENU -->
+            <nav class="nav-menu">
+              <a href="../index.html" class="tab left-br-20">
+                <div class="avatar me-3">
+                  <img src="../img/avatar-perfil.jpg" width="60" alt="">
+                </div>
+                <div class="tab-content">
+                  Kainara
+                  <br> 
+                  Appelt
+                </div>
+              </a>
+    
+              <a href="comentarios.html" class="tab-active com-br-20">
+                <div class="tab-content-active">
+                  Comentários
+                </div>
+              </a>
+    
+              <a href="contato.html" class="tab rigth-br-20">
+                <div class="tab-content">
+                  Contato
+                </div>
+              </a>
+            </nav> 
+
+            <!-- Corpo da página -->
+            <div class="b-white">
+              <div class="row">
+                <div class="col-12 body-area">
+                  <div class="d-flex flex-column">
+                    <div class="write-comment">
+                      <img src="../img/icon-user-comment.png" alt="">
+                      <input type="text" 
+                        class="form-control ms-3" 
+                        placeholder="Excreva seu nome" 
+                      />
+                    </div>
+  
+                    <div class="write-comment mt-3">
+                      <img src="../img/icon-comment.png" alt="">
+                      <input type="text" 
+                        class="form-control ms-3" 
+                        placeholder="Excreva seu comentário" 
+                      />
+                    </div>
+  
+                    <div class="d-flex justify-content-end mt-3">
+                      <button type="button" class="btn btn-outline-blue me-2">
+                        Limpar
+                      </button>
+                      <button type="button" class="btn btn-blue">
+                        Comentar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="row mt-5">
+                <div class="col-4">
+                  <div class="card-comment">
+                      <span>
+                        <h3>Giuseppe Foza:</h3>
+                        <p>Muito bom o currículo!</p>
+                      </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>    
+    </div>
+
+
+    <script src="../libs/bootstrap5/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../config/api.js"></script>
+    <script type="text/javascript" src="../libs/sweetalert2/sweetalert2.all.min.js"></script>
+
+</body>
+</html>

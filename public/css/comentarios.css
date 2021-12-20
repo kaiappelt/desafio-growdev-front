@@ -1,0 +1,38 @@
+.com-br-20 {
+    border-radius: 20px 20px 0 0;
+}
+
+.left-br-20 {
+    border-radius: 0 0 20px 0;
+}
+
+.rigth-br-20 {
+    border-radius: 0 0 0 20px;
+}
+
+.card-comment {
+    background-image: url("../img/post-it.png");
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    padding: 50px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-comment h3 {
+    font-family: 'Shadows Into Light', cursive;
+}
+.card-comment p {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.write-comment {
+    display: flex;
+}
+
+.write-comment img {
+    max-width: 60px;
+    max-height: 60px;
+}
+

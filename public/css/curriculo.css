@@ -1,0 +1,35 @@
+.body-area h3, h5{
+    color: #b76e79;
+}
+
+.column1, .column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills {
+    width: 100%;
+    border-radius: 20px;
+    background-color:#f7caca;
+    padding: 30px;
+}
+
+i {
+    color: #b76e79;
+}
+
+.hobbies ul li {
+    color: #003153;
+}
+
+.active-br-20 {
+    border-radius: 0 20px 0 0;
+}
+
+.cur-br-20 {
+    border-radius: 0 0 0 20px;
+}
+
+.pd-body {
+    padding: 0 30px 0 30px;
+}

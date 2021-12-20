@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="../libs/bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../libs/fontawesome5/css/all.min.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/contato.css">   
+
+    <title>Comentários</title>
+</head>
+<body>
+    <div class="container">
+        <div class="area">
+            <!-- MENU -->
+            <nav class="nav-menu">
+              <a href="../index.html" class="tab">
+                <div class="avatar me-3">
+                  <img src="../img/avatar-perfil.jpg" width="60" alt="">
+                </div>
+                <div class="tab-content">
+                  Kainara
+                  <br> 
+                  Appelt
+                </div>
+              </a>
+    
+              <a href="comentarios.html" class="tab cont-br-20">
+                <div class="tab-content">
+                  Comentários
+                </div>
+              </a>
+    
+              <a href="contato.html" class="tab-active active-br-20">
+                <div class="tab-content-active">
+                  Contato
+                </div>
+              </a>
+            </nav> 
+
+            <!-- Corpo da página -->
+            <div class="b-white">
+              <div class="row">
+                <div class="col-12 body-area">
+                  <h2>
+                    Entrar em contato
+                  </h2>
+                  <p>
+                    Deixe seus dados e assim que possível entrarei em contato com você.
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 col-lg-6 mt-4">
+                  <label for="name">Nome completo</label>
+                  <input type="text" 
+                         id="name" 
+                         class="form-control"
+                         autocomplete="off" 
+                  />
+                </div>
+
+                <div class="col-md-12 col-lg-6 mt-4">
+                  <label for="email">E-mail</label>
+                  <input type="email" 
+                         id="email" 
+                         class="form-control"
+                         autocomplete="off" 
+                  />
+                </div>
+
+                <div class="col-md-12 col-lg-6 mt-4">
+                  <label for="phone">Telefone</label>
+                  <input type="text" 
+                         id="phone" 
+                         class="form-control"
+                         autocomplete="off" 
+                  />
+                </div>
+
+                <div class="col-12 mt-4">
+                  <button type="button" class="btn btn-outline-blue me-2">
+                    Limpar
+                  </button>
+                  <button type="button" class="btn btn-blue">
+                    Enviar
+                  </button>
+                </div>
+              </div>
+            </div>      
+        </div>    
+    </div>
+
+    <script src="../libs/bootstrap5/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../config/api.js"></script>
+    <script type="text/javascript" src="../libs/sweetalert2/sweetalert2.all.min.js"></script>
+
+</body>
+</html>
