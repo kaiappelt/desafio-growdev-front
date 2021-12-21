@@ -49,16 +49,18 @@
                     <div class="write-comment">
                       <img src="../img/icon-user-comment.png" alt="">
                       <input type="text" 
-                        class="form-control ms-3" 
-                        placeholder="Excreva seu nome" 
+                             id="name"
+                             class="form-control ms-3" 
+                             placeholder="Excreva seu nome" 
                       />
                     </div>
   
                     <div class="write-comment mt-3">
                       <img src="../img/icon-comment.png" alt="">
                       <input type="text" 
-                        class="form-control ms-3" 
-                        placeholder="Excreva seu comentário" 
+                             id="comment"
+                             class="form-control ms-3" 
+                             placeholder="Excreva seu comentário" 
                       />
                     </div>
   
@@ -66,7 +68,7 @@
                       <button type="button" class="btn btn-outline-blue me-2">
                         Limpar
                       </button>
-                      <button type="button" class="btn btn-blue">
+                      <button onclick="insertNewComment()" type="button" class="btn btn-blue">
                         Comentar
                       </button>
                     </div>
@@ -74,16 +76,7 @@
                 </div>
               </div>
   
-              <div class="row mt-5">
-                <div class="col-4">
-                  <div class="card-comment">
-                      <span>
-                        <h3>Giuseppe Foza:</h3>
-                        <p>Muito bom o currículo!</p>
-                      </span>
-                  </div>
-                </div>
-              </div>
+              <div id="comments-list" class="row mt-5"></div>
             </div>
         </div>    
     </div>
@@ -91,8 +84,9 @@
 
     <script src="../libs/bootstrap5/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="../config/api.js"></script>
     <script type="text/javascript" src="../libs/sweetalert2/sweetalert2.all.min.js"></script>
+    <script src="../config/api.js"></script>
+    <script src="../js/comentarios.js"></script>
 
 </body>
 </html>

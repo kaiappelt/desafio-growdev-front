@@ -1,4 +1,4 @@
-const baseURL = "";
+const baseURL = "https://api-curriculo.herokuapp.com";
 
 const api = axios.create({
     baseURL,
@@ -7,15 +7,3 @@ const api = axios.create({
         "Content": "application/json"
     }
 });
-
-// api.interceptors.request.use((config) => {
-//     const token = localStorage.getItem("token");
-
-//     if(token) {
-//         config.headers.Authorization = `Bearer ${token}`
-//     }
-
-//     return config;
-// }, (error) => {
-//     return Promise.reject(error);
-// });
